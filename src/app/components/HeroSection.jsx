@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import { FaThumbsUp } from "react-icons/fa";
+
 
 const HeroSection = () => {
   return (
@@ -21,6 +23,14 @@ const HeroSection = () => {
 
   <section className="relative w-[80%] md:w-[50%] aspect-video">
     <Image className="w-full h-full object-cover rounded-lg" src="/slack-ui.jpg" fill alt="slack-ui" />
+    <span className='absolute -top-5 left-[20%] bg-white p-2 rounded-full'>
+    <FaThumbsUp className=' text-yellow-300' />
+    </span>
+    <span className='absolute -bottom-5 left-[30%] bg-white p-2 rounded-full'>
+    <FaThumbsUp className=' text-yellow-300' />
+    </span>    <span className='absolute top-[50%] left-[95%] bg-white p-2 rounded-full'>
+    <FaThumbsUp className=' text-yellow-300' />
+    </span>
   </section>
 </section>
 

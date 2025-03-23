@@ -15,9 +15,8 @@ export default function Home() {
       {/* Toast */}
       <Toast />
  
-
       {/* Hero Section */}
-     <HeroSection />
+      <HeroSection />
 
       {/* Logos Section */}
       <Logos />
